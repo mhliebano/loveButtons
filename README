@@ -1,14 +1,14 @@
-#LoveButtons
+# LoveButtons
 
 a simple libary for emulate buttons for love2d
 
-Paramaters
+## Paramaters
     px:position x in screen
     py:position y in screen
     ww: width button
     hh: height button
     
-    properties:
+  ##  properties:
         x: set / get position x in screen
         y: set / get position y in screen
         w: set / get width button
@@ -17,10 +17,10 @@ Paramaters
         tag: variant tag for programmer
         group: table of group buttons
         
-    methods:
+   ## methods:
         draw(): draw a square in screen (only reference) [optional]
         drawGroup(): draw a group in screen (only reference) [optional]
         click(): perform a action on event click (return true if click inside button)
         clickGroup(): perform a action on event click (return number button and tag if click inside button)
         
-#Usage in the example main.lua
+# Usage in the example main.lua
